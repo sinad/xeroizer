@@ -50,7 +50,7 @@ module Xeroizer
       include Attachment::Extensions
 
       set_primary_key :invoice_id
-      set_possible_primary_keys :invoice_id, :invoice_number
+      set_possible_primary_keys :invoice_id
       list_contains_summary_only true
 
       guid         :invoice_id

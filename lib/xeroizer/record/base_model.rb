@@ -182,7 +182,7 @@ module Xeroizer
         end
 
         def create_method
-          :http_post
+          :http_put
         end
 
       protected
